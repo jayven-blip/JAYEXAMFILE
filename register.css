@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:#0b0f2a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.form-box{
+    background:#111;
+    padding:40px;
+    width:400px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(255,165,0,0.4);
+}
+
+.form-box h1{
+    text-align:center;
+    color:orange;
+    margin-bottom:30px;
+}
+
+.BOXX{
+    margin-bottom:20px;
+}
+
+.BOXX input{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+}
+
+.submitt{
+    width:100%;
+    padding:15px;
+    background:orange;
+    color:white;
+    border:none;
+    border-radius:5px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+}
